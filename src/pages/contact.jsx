@@ -5,7 +5,9 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import gojo from "./styles/jjk-gojo-face.png";
+import sukuna from "./styles/sukuna.png"
+// jjk-gojo-face.png"
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -58,6 +60,9 @@ const Contact = () => {
 					<div className="socials-container">
 						<div className="contact-socials">
 							<Socials />
+							
+							<img src={sukuna} alt="gojo-face" width={"15%"}/>
+							<img src={gojo} alt="gojo-face" width={"23%"}/>
 						</div>
 					</div>
 

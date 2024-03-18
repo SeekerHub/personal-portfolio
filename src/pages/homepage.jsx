@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import peeker_img from "./styles/peeker.png"
 import { faDownload, faFileDownload, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -203,6 +203,9 @@ const Homepage = () => {
 
 							<div className="homepage-works">
 								<Works />
+							</div>
+							<div className="img-gojo-home">
+								<img src={peeker_img} alt="" width={"70%"}/>
 							</div>
 						</div>
 

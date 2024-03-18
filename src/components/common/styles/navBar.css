@@ -47,7 +47,7 @@
 
 .nav-item a {
 	text-decoration: none;
-	color: var(--primary-color);
+	color: var(--primary-nav-text-color);
 }
 
 .nav-item a:hover {

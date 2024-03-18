@@ -26,7 +26,7 @@ const INFO = {
 	about: {
 		title: "I’m Bhavesh",
 		description:
-			"I am currently working as a SDE at Infosys for one their top clients Apple. I have previously have been a part of few  open-source projects.Currently, I am exploring cryto & blockchain domain, if you have any projects in head, i can buy you a coffee, Also, If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
+			"I am currently working as a SDE at Infosys for one their top clients Apple. I have previously have been a part of few  open-source projects.Currently, I am exploring cryto & blockchain domain, if you have any projects in mind, lets discuss(coffee's on me). Also, If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
 	},
 
 	articles: {

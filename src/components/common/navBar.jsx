@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import DarkMode from "../DarkMode/DarkMode"
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
 
 	return (
-		<React.Fragment>
+		<>
 			<div className="nav-container">
 				<nav className="navbar">
 					<div className="nav-background">
@@ -60,8 +60,10 @@ const NavBar = (props) => {
 						</ul>
 					</div>
 				</nav>
+				
+				<DarkMode />
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

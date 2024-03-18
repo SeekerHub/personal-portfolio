@@ -5,7 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import gojo_new from "./styles/gojo-new-removebg-preview.png"
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -47,6 +47,9 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+								</div>
+								<div>
+									<img src={gojo_new} alt="" />
 								</div>
 							</div>
 
