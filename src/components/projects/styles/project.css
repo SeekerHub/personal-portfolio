@@ -12,7 +12,8 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: var(--hover-color);
+	/* #4a4646 */
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }

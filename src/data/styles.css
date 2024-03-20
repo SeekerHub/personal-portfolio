@@ -1,6 +1,7 @@
 :root {
 	/* ------- colors ------- */
 	--back-color : #fdfdfd;
+	--hover-color : #e8e8e8;
 	--primary-nav-text-color : #27272a;
 	--primary-color: #27272a;
 	--secondary-color: #65656d;
@@ -16,6 +17,7 @@
 }
 [data-theme="dark"] {
 	--back-color : #1d2631;
+	--hover-color : #4a4646;
 	--primary-nav-text-color : #27272a;
 	--primary-color: #f5f5f5;
 	--secondary-color: #f5f5f5;

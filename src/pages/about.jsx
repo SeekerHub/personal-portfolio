@@ -8,7 +8,7 @@ import Socials from "../components/about/socials";
 import gojo_new from "./styles/gojo-new-removebg-preview.png"
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
+import TechStack from "../components/about/TechStack";
 import "./styles/about.css";
 
 const About = () => {
@@ -65,12 +65,14 @@ const About = () => {
 								</div>
 
 								<div className="about-socials">
-									<Socials />
+									{/* <Socials /> */}
+							{/* <TechStack /> */}
 								</div>
 							</div>
 						</div>
 						<div className="about-socials-mobile">
-							<Socials />
+							{/* <Socials /> */}
+							{/* <TechStack /> */}
 						</div>
 					</div>
 					<div className="page-footer">

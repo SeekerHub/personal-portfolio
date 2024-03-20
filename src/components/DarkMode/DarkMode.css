@@ -7,6 +7,19 @@
     right: 28vh;
 }
 
+@media screen and (max-width: 992px) {
+    .dark_mode {
+        rotate: 90deg;
+        margin-top: 28px;
+        right: 0;
+        
+        position: fixed;
+        z-index: 999;
+        top: 1vh;
+        /* right: 28vh; */
+    }
+  }
+  
 .dark_mode_label {
     width: 65px;
     height: 30px;
