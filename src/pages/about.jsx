@@ -66,7 +66,7 @@ const About = () => {
 
 								<div className="about-socials">
 									{/* <Socials /> */}
-							{/* <TechStack /> */}
+							<TechStack />
 								</div>
 							</div>
 						</div>

@@ -1,25 +1,38 @@
 import React from 'react'
+import react from "../../skills/React.png"
+import mongo from "../../skills/MongoDB.png"
+import node from "../../skills/Node.js.png"
+import aws from "../../skills/AWS.png"
+import d3 from "../../skills/D3.js.png"
+import python from "../../skills/Python.png"
 import "./tech.css";
 
 function TechStack() {
+
   return (
     <>
-        <div class="grid-container">
-            <div class="grid-item">HTML</div>
-            <div class="grid-item">CSS</div>
-            <div class="grid-item">JavaScript</div>  
-        </div>
-        <div class="grid-container">
+      <div className='title'>Some Tech I used for experimenting....</div>
+      <div className="logos">
+      <div className="logos-slide">
         
-            <div class="grid-item">React</div>
-            <div class="grid-item">Python</div>
-            <div class="grid-item">React Native</div>  
-        </div>
-        <div class="grid-container">
-            <div class="grid-item">Docker</div>
-            <div class="grid-item">NodeJS</div>
-            <div class="grid-item">9</div>  
-        </div>
+        <img src={react} alt="img-1"/>
+        <img src={node} alt="img-1"/>
+        <img src={aws} alt="img-1"/>
+        <img src={d3} alt="img-1"/>
+        <img src={python} alt="img-1"/>
+        <img src={mongo} alt="img-1"/>
+      </div>
+
+      <div className="logos-slide">
+        
+        <img src={react} alt="img-1"/>
+        <img src={node} alt="img-1"/>
+        <img src={aws} alt="img-1"/>
+        <img src={d3} alt="img-1"/>
+        <img src={python} alt="img-1"/>
+        <img src={mongo} alt="img-1"/>
+      </div>
+    </div>
     </>
   )
 }

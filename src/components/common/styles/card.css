@@ -2,8 +2,8 @@
 
 .card {
 	mix-blend-mode: normal;
-	border-radius: 20px;
-	outline: 2px solid #f4f4f5;
+    border-radius: 9px;
+    outline: 2px solid #bfcdd2;
 }
 
 .card-container {
